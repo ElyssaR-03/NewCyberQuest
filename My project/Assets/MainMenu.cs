@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public void NewAdventure()
+   {
+       // Load the first level of the game
+       // For example, SceneManager.LoadScene("Level1");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   }
+
+   public void ContinueJourney()
+   {
+       // Load the last saved level of the game
+       // For example, SceneManager.LoadScene("Level2");
+
+   }
+
+   public void Settings()
+   {
+       // Load the settings menu
+       // For example, SceneManager.LoadScene("Settings");
+       
+   }
+
+   public void Quit()
+   {
+       // Quit the game
+       Application.Quit();
+   }
+
+    
 }
